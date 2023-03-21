@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anaheim&display=swap");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,12 +25,36 @@ a:hover {
   color: #535bf2;
 }
 
+::-webkit-scrollbar {
+  width: 0.5em;
+  &-track {
+    background: hsla(198, 87%, 24%, 0);
+  }
+  &-thumb {
+    background: #085070; /* fallback for old browsers */
+    background: linear-gradient(
+      to top,
+      #85d8ce,
+      #085070
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    &:hover {
+      background: #0d7dad; /* fallback for old browsers */
+      background: linear-gradient(
+        to top,
+        #85d6cd,
+        #0c688f
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  }
+}
+
 body {
   margin: 0;
+  padding: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
