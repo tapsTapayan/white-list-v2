@@ -1,0 +1,40 @@
+{
+  "data" : [
+    {
+      "title": "Lodging House",
+      "description":
+        "Travel in comfort with affordable lodging houses - your home away from home!",
+      "icon": "/src/assets/svg/lodginghouse.svg"
+    },
+    {
+      "title": "Boarding House",
+      "description":
+        "Experience comfortable and convenient living with affordable boarding houses - your ideal home away from home!",
+      "icon": "/src/assets/svg/boarding-houses.svg"
+    },
+    {
+      "title": "Apartment",
+      "description":
+        "Elevate your living experience with modern and stylish apartments - your perfect home away from home!",
+      "icon": "/src/assets/svg/apartments.svg"
+    },
+    {
+      "title": "Rent House",
+      "description":
+        "Find your dream home away from home with cozy and affordable rental houses - the perfect choice for your next adventure!",
+      "icon": "/src/assets/svg/rent-house.svg"
+    },
+    {
+      "title": "Hotel",
+      "description":
+        "Indulge in luxury and comfort with premium hotels - your ultimate home away from home for a memorable stay!",
+      "icon": "/src/assets/svg/hotels.svg"
+    },
+    {
+      "title": "Lease",
+      "description":
+        "Make rental properties your home away from home with our flexible and affordable leasing options - find your perfect fit today!",
+      "icon": "/src/assets/svg/lease.svg"
+    }
+  ]
+}

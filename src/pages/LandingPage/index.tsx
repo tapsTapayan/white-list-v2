@@ -3,8 +3,9 @@ import { useEffect, useState } from "react";
 
 import backdrop from "../../assets/svg/startupPage.svg";
 import title from "../../assets/svg/white-list-text-black.svg";
-import { FeaturesCards } from "../../components/FeatureCard";
+import { FeatureList } from "../../components";
 import { setHeader } from "../../lib/hooks";
+import { menuData } from "../../lib/json";
 import styles from "./index.module.scss";
 
 function LandingPage() {
@@ -54,7 +55,13 @@ function LandingPage() {
       </div>
       <div className={styles.body} id="snap">
         <div className={styles.parallax}>
-          <FeaturesCards />
+          <FeatureList
+            menuData={menuData}
+            header="FIND YOUR HOME"
+            subheader="Easy and convenient. Find what you need."
+            description="Save your time travelling and looking for available spaces in Cebu."
+            description2="You can browse it all here!"
+          />
         </div>
       </div>
       <div className={styles.footer}></div>
